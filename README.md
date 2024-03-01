@@ -36,12 +36,15 @@ $ Which platforms would you like to configure for EAS Build? >> All
 7. Your [Expo dashboard](https://expo.dev) should now list `atrium-virtual-id` under your Projects.
 8. Run `eas build --platform android` to build an Android APK or `eas build --platform ios` to build an IOS simulator build.
 ```console
-$ Generate a new Android Keystore? >> Y  # ANDROID ONLY. Read more about Expo handling app credentials at https://docs.expo.dev/app-signing/local-credentials/
+$ Generate a new Android Keystore? >> Y  # ANDROID ONLY. Read about Expo handling app credentials at https://docs.expo.dev/app-signing/local-credentials/
 ```
 9. Expo will now be initialized to start building your app. You can view your build's progress on your Expo dashboard. This process will take around 10 minutes. Once the build is finished, you will receive a link to the build on your Expo dashboard.
 ```console
 $ Install and run the Android build on an emulator? >> N  # ANDROID ONLY. Use if you're using an Android emulator for development purposes.
 ```
-10. **ANDROID ONLY**: Once your build finishes, navigate to the build on your Expo dashboard using your Android phone. Go under "Build artifact" and select "Install." This will install the APK file. Once your file is finished downloading, run the .apk file and press "Install." Your device may indicate a security warning; ignore these warnings and install the app anyway. Now your app is finished!
+10. **ANDROID ONLY**: Once your build finishes, navigate to the build on your Expo dashboard using your Android phone. Go under "Build artifact" and select "Install." This will install the APK file. Once the file is finished downloading, run the APK file and press "Install." Your device may indicate a security warning; ignore these warnings to install the app. Your app is ready to use!
 
-## My App Looks Wrong?
+<br>
+
+## My ID Looks Wrong?
+If you find that your ID card is displayed too large or you'd like to modify its appearance, you can modify the React Native code at [src/IdScreen.js](src/IdScreen.js). Specifically, you may want to modify the Image components' style props on lines 76-84 and 103-111. Styles in React Native are modeled after CSS. Read the [Expo docs](https://docs.expo.dev/) to learn about Expo development. For reference, you can check the `package.json` for the commands to start the Expo development server. Good luck!
