@@ -4,11 +4,15 @@
 <br />
 <p align="center">
     <img src="assets/logo.png" alt="Logo" width="160" height="160">
+    <br />
+    <img src="https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React Native"">
+    <br />
+    <img src="https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37" alt="Expo"">
 </p>
 
 ## About the Project
 
-Atrium Virtual ID is a mobile application built with Expo and React Native. The goal is to simplify the time-consuming login process for Atrium Campus Connect at UCI—although this application might work on other campuses, this application aims to simulate the Virtual ID Atrium Campus Connect interface on Android. To that end, the iOS interface is currently not supported, although iOS users can use the application if they wish.
+Atrium Virtual ID is a mobile application built with React Native and Expo. The goal is to simplify the time-consuming login process for Atrium Campus Connect at UCI—although this application might work on other campuses, this application aims to simulate the Virtual ID Atrium Campus Connect interface on Android. To that end, the iOS interface is currently not supported, although iOS users can use the application if they wish.
 
 This repository comes in the form of a React Native project bootstrapped with `create-expo-app`. You can read about it [here](https://docs.expo.dev/tutorial/create-your-first-app/). To create the application, this project provides the resources for you to clone and build the app to use locally on your own device. This project shall not be published on any public app store or distributor.
 
