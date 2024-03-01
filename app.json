@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Atrium ID",
+    "slug": "atrium-virtual-id",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/logo.png",
+      "backgroundColor": "#FFFFFF"
+    },
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.uci.atriumvirtualid",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.uci.atriumvirtualid",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    }
+  }
+}
