@@ -18,7 +18,7 @@ This repository comes in the form of a React Native project bootstrapped with `c
 
 To build this project, you will need to install [Git](https://git-scm.com/) and [NodeJS](https://nodejs.org/en/) and make an account on [Expo](https://expo.dev/). Expo is an open-source platform for making universal native apps for Android, iOS, and the web using JavaScript and React. For Android users, it will also eliminate the necessity of downloading Android Studio or an Android SDK.
 
-The following instructions will take you through configuring the Expo app and building your mobile application. Since the project is already written, there is no need to use Expo's development servers, Expo Go, or other features for Expo development. However, if you'd like to modify the source code, you can read about development in Expo [here](https://docs.expo.dev/overview/). **Note that the instructions are written for Android users:** for iOS users, you will still be able to build your app and access it through Expo's dashboard, but you will need to navigate the rest of the process on your own. For iOS, the Expo build profile is set for Expo's iOS simulator, which you can read about [here](https://docs.expo.dev/build-reference/simulators). If you don't want a simulator build, you may want to edit the [EAS configuration file](eas.json) at `build.production.ios.simiulator`.
+The following instructions will take you through configuring the Expo app and building your mobile application. Since the project is already written, there is no need to use Expo's development servers, Expo Go, or other features for Expo development. However, if you'd like to modify the source code, you can read about development in Expo [here](https://docs.expo.dev/overview/). **Note that the instructions are written for Android users:** for iOS users, you will still be able to build your app and access it through Expo's dashboard, but you will need to navigate the rest of the process on your own. For iOS, the Expo build profile is set for Expo's iOS simulator, which you can read about [here](https://docs.expo.dev/build-reference/simulators). If you don't want a simulator build, you may want to edit the [EAS configuration file](eas.json#L11) at `build.production.ios.simulator`.
 
 <br>
 
@@ -46,7 +46,7 @@ $ Generate a new Android Keystore? >> Y  # ANDROID ONLY. Read about Expo handlin
 ```console
 $ Install and run the Android build on an emulator? >> N  # ANDROID ONLY. Use if you're using an Android emulator for development purposes.
 ```
-10. **ANDROID ONLY**: Once your build finishes, navigate to the build on your Expo dashboard using your Android phone. Go under "Build artifact" and select "Install." This will install the APK file. Once the file is finished downloading, run the APK file and press "Install." Your device may indicate a security warning; ignore these warnings to install the app. Your app is ready to use!
+10. **ANDROID ONLY**: Once your build finishes, navigate to the build on your Expo dashboard using your Android phone. Go under "Build artifact" and select "Install." This will install the APK file. Once the file is finished downloading, run the APK file and press "Install." Your device may indicate a security warning; ignore these warnings and install. Your app is ready to use!
 
 <br>
 
