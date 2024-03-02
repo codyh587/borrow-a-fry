@@ -1,4 +1,4 @@
-# Atrum Virtual ID
+# Atrium Virtual ID
 ### An app for making the UCI Atrium login process faster and easier.
 
 <br />
