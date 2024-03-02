@@ -12,13 +12,13 @@
 
 ## About the Project
 
-Atrium Virtual ID is a mobile application built with React Native and Expo. The goal is to simplify the time-consuming login process for Atrium Campus Connect at UCI by simulating the Atrium Campus Connect Virtual ID interface on Android. To that end, the iOS interface is currently not supported, although iOS users can use the application if they wish. This project does not endorse the use of the app for identity fraud, imitation, or unauthorized activity of any kind and serves solely for amusement and entertainment purposes.
+Atrium Virtual ID is a mobile application built with React Native and Expo. The goal is to simplify the time-consuming login process for Atrium Campus Connect at UCI by emulating the Atrium Campus Connect Virtual ID interface on Android. To that end, the iOS interface is not supported, although iOS users can use the application if they wish. This project does not endorse the use of the app for identity fraud, imitation, or unauthorized activity of any kind and serves solely for amusement and entertainment purposes.
 
-This repository comes in the form of a React Native project bootstrapped with `create-expo-app`. You can read about it [here](https://docs.expo.dev/tutorial/create-your-first-app/). To create the application, this project provides the resources for you to clone and build the app to use locally on your own device. This project shall not be published on any public app store or distributor.
+This repository comes in the form of a React Native project bootstrapped with `create-expo-app`. You can read more about it [here](https://docs.expo.dev/tutorial/create-your-first-app/). To create the application, this project provides the resources for you to clone and build the app to use locally on your own device. This project shall not be published on any public app store or distributor.
 
 To build this project, you will need to install [Git](https://git-scm.com/) and [NodeJS](https://nodejs.org/en/) and make an account on [Expo](https://expo.dev/). Expo is an open-source platform for making universal native apps for Android, iOS, and the web using JavaScript and React. For Android users, it will also eliminate the necessity of downloading Android Studio or an Android SDK.
 
-The following instructions will take you through configuring the Expo app and building your mobile application. Since the project is already written, there is no need to use Expo's development servers, Expo Go, or other features for Expo development. However, if you'd like to modify the source code, you can read about development in Expo [here](https://docs.expo.dev/overview/). **Note that the instructions are written for Android users:** for iOS users, you will still be able to build your app and access it through Expo's dashboard, but you will need navigate the process on your own. Currently, the Expo build profile is set for Expo's iOS simulator, which you can read about [here](https://docs.expo.dev/build-reference/simulators). If you don't want a simulator build, you may want to edit the [EAS configuration file](eas.json) at `build.production.ios.simiulator`.
+The following instructions will take you through configuring the Expo app and building your mobile application. Since the project is already written, there is no need to use Expo's development servers, Expo Go, or other features for Expo development. However, if you'd like to modify the source code, you can read about development in Expo [here](https://docs.expo.dev/overview/). **Note that the instructions are written for Android users:** for iOS users, you will still be able to build your app and access it through Expo's dashboard, but you will need to navigate the rest of the process on your own. For iOS, the Expo build profile is set for Expo's iOS simulator, which you can read about [here](https://docs.expo.dev/build-reference/simulators). If you don't want a simulator build, you may want to edit the [EAS configuration file](eas.json) at `build.production.ios.simiulator`.
 
 <br>
 
@@ -42,7 +42,7 @@ $ Which platforms would you like to configure for EAS Build? >> All
 ```console
 $ Generate a new Android Keystore? >> Y  # ANDROID ONLY. Read about Expo handling app credentials at https://docs.expo.dev/app-signing/local-credentials/
 ```
-9. Expo will now be initialized to start building your app. You can view your build's progress on your Expo dashboard. This process will take around 10 minutes. Once the build is finished, you will receive a link to the build on your Expo dashboard.
+9. Expo will now initialize to start building your app. You can view your build's progress on your Expo dashboard. This process will take around 10 minutes. Once the build is finished, you will receive a link to the build on your dashboard.
 ```console
 $ Install and run the Android build on an emulator? >> N  # ANDROID ONLY. Use if you're using an Android emulator for development purposes.
 ```
@@ -51,4 +51,4 @@ $ Install and run the Android build on an emulator? >> N  # ANDROID ONLY. Use if
 <br>
 
 ## My ID Looks Wrong?
-If you find that your ID card is displayed too large or you'd like to modify its appearance, you can modify the React Native code at [src/IdScreen.js](src/IdScreen.js). Specifically, you may want to modify the Image components' style props on lines [76-84](src/IdScreen.js#L76-L84) and [103-111](src/IdScreen.js#L103-L111). Styles in React Native are modeled after CSS. Read the [Expo docs](https://docs.expo.dev/) to learn about Expo development. For reference, you can check the `package.json` for commands to start the Expo development server. Happy coding!
+If you find that your ID card is displayed too large or you'd like to modify its appearance, you can modify the React Native code at [src/IdScreen.js](src/IdScreen.js). Specifically, you may want to modify the Image components' style props on lines [76-84](src/IdScreen.js#L76-L84) and [103-111](src/IdScreen.js#L103-L111). Styles in React Native are modeled after CSS. Read the [Expo docs](https://docs.expo.dev/) to learn about Expo development. For reference, check `package.json` for commands to start the Expo development server. Happy coding!
