@@ -46,9 +46,9 @@ $ Generate a new Android Keystore? >> Y  # ANDROID ONLY. Read about Expo handlin
 ```console
 $ Install and run the Android build on an emulator? >> N  # ANDROID ONLY. Use if you're using an Android emulator for development purposes.
 ```
-10. **ANDROID ONLY**: Once your build finishes, navigate to the build on your Expo dashboard using your Android phone. Go under "Build artifact" and select "Install." This will install the APK file. Once the file is finished downloading, run the APK file and press "Install." Your device may indicate a security warning; ignore these warnings and install. Your app is ready to use!
+10. **ANDROID ONLY**: Once your build finishes, navigate to the build on your Expo dashboard using your Android phone. Go under "Build artifact" and select "Install." This will install the APK file. Once the file finishes downloading, open the APK file and press "Install." Your device may indicate a security warning; ignore these warnings and install the app. Your app is ready to use!
 
 <br>
 
 ## My ID Looks Wrong?
-If you find that your ID card is displayed too large or you'd like to modify its appearance, you can modify the React Native code at [src/IdScreen.js](src/IdScreen.js). Specifically, you may want to modify the Image components' style props on lines [76-84](src/IdScreen.js#L76-L84) and [103-111](src/IdScreen.js#L103-L111). Styles in React Native are modeled after CSS. Read the [Expo docs](https://docs.expo.dev/) to learn about Expo development. For reference, check `package.json` for commands to start the Expo development server. Happy coding!
+If you find that your ID card is displayed too large or you'd like to modify its appearance, you can modify the React Native code at [src/IdScreen.js](src/IdScreen.js). Specifically, you may want to modify the Image components' style props on lines [76-84](src/IdScreen.js#L76-L84) and [103-111](src/IdScreen.js#L103-L111). Styles in React Native are modeled after CSS. Read the [Expo docs](https://docs.expo.dev/) to learn about Expo development. For reference, check `package.json` for commands to start the Expo development server. Remember to commit for Expo. Happy coding!
