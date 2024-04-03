@@ -1,5 +1,5 @@
 # Atrium Virtual ID
-### Mobile app for making the UCI Atrium login process faster and easier.
+### An app for making the UCI Atrium login process faster and easier.
 
 <br />
 <p align="center">
@@ -52,3 +52,9 @@ $ Install and run the Android build on an emulator? >> N  # ANDROID ONLY. Use if
 
 ## My ID Looks Wrong?
 If you find that your ID card is displayed too large or you'd like to modify its appearance, you can modify the React Native code at [src/IdScreen.js](src/IdScreen.js). Specifically, you may want to modify the Image components' style props on lines [76-84](src/IdScreen.js#L76-L84) and [103-111](src/IdScreen.js#L103-L111). Styles in React Native are modeled after CSS. Read the [Expo docs](https://docs.expo.dev/) to learn about Expo development. For reference, check `package.json` for commands to start the Expo development server. Remember to commit for Expo. Happy coding!
+
+<br>
+
+## License
+Distributed under the MIT License. See `LICENSE.md` for more information.
+
