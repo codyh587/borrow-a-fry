@@ -1,5 +1,5 @@
 # Atrium Virtual ID
-### An app for making the UCI Atrium login process faster and easier.
+### Mobile app for making the UCI Atrium login process faster and easier.
 
 <br />
 <p align="center">
